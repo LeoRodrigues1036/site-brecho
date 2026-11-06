@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>desapega. — Brechó</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="logo" href="#">d <span>brecho&desapega.</span></a>
+        <nav>
+            <a href="#catalogo">Explorar peças</a>
+            <a href="#como-funciona">Como funciona</a>
+        </nav>
+        <div class="actions"><button id="loginBtn" class="text-btn">Entrar</button><button id="announceBtn"
+                class="primary">+ Anunciar peça</button></div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div><small>MODA COM HISTÓRIA</small>
+                <h1>Seu estilo,<br><i>um novo capítulo.</i></h1>
+                <p>Encontre peças únicas, dê espaço ao que não usa mais e faça a moda circular.</p><a class="primary"
+                    href="#catalogo">Explorar o acervo ↗</a>
+            </div><img
+                src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85"
+                alt="Look de moda em tons neutros">
+        </section>
+
+        <section id="catalogo" class="catalog">
+
+            <div class="heading">
+                <div>
+                    <small>ACERVO DA COMUNIDADE</small>
+                    <h2>Peças esperando<br><i>por você.</i></h2>
+                </div>
+                <p>Garimpe com calma. Cada peça tem uma história.</p>
+            </div>
+
+            <div class="filters">
+                <input id="search" placeholder="Buscar peça ou marca...">
+                <select id="category">
+                    <option>Todas</option>
+                    <option>Roupas</option>
+                    <option>Acessórios</option>
+                    <option>Calçados</option>
+                </select>
+                <select id="size">
+                    <option>Todos</option>
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>Único</option>
+                    <option>38</option>
+                </select>
+            </div>
+
+            <div id="products" class="grid"> </div>
+
+        </section>
+
+        <section id="como-funciona" class="how">
+            <small>SIMPLES ASSIM</small>
+            <h2>Moda boa é <i>moda compartilhada.</i></h2>
+            <div class="steps">
+                <div>
+                    <b>01</b>
+                    <h3>Encontre</h3>
+                    <p>Filtre por tamanho, marca e estilo.</p>
+                </div>
+                <div>
+                    <b>02</b>
+                    <h3>Combine</h3>
+                    <p>Converse com quem anunciou.</p>
+                </div>
+                <div>
+                    <b>03</b>
+                    <h3>Circule</h3>
+                    <p>Compre, use e passe adiante.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <strong>desapega.</strong>
+        <span>Um acervo feito por pessoas, para pessoas.</span>
+    </footer>
+
+    <div id="modal" class="modal hidden"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

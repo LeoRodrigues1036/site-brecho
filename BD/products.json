@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Blazer de linho areia",
+    "brand": "Zara",
+    "size": "M",
+    "condition": "Excelente",
+    "price": 89,
+    "status": "Disponível",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85",
+    "seller": "Marina Alves",
+    "sellerEmail": "marina@email.com",
+    "category": "Roupas"
+  },
+  {
+    "id": 2,
+    "title": "Bolsa tiracolo caramelo",
+    "brand": "Arezzo",
+    "size": "Único",
+    "condition": "Muito bom",
+    "price": 120,
+    "status": "Disponível",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85",
+    "seller": "Lia Martins",
+    "sellerEmail": "lia@email.com",
+    "category": "Acessórios"
+  },
+  {
+    "id": 3,
+    "title": "Vestido midi floral",
+    "brand": "Farm",
+    "size": "P",
+    "condition": "Excelente",
+    "price": 98,
+    "status": "Disponível",
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=85",
+    "seller": "Bia Souza",
+    "sellerEmail": "bia@email.com",
+    "category": "Roupas"
+  },
+  {
+    "id": 4,
+    "title": "Tênis casual branco",
+    "brand": "Vans",
+    "size": "38",
+    "condition": "Bom",
+    "price": 145,
+    "status": "Reservada",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85",
+    "seller": "Rafa Lima",
+    "sellerEmail": "rafa@email.com",
+    "category": "Calçados"
+  },
+  {
+    "id": 5,
+    "title": "Tricot gola alta verde",
+    "brand": "Renner",
+    "size": "G",
+    "condition": "Muito bom",
+    "price": 65,
+    "status": "Disponível",
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=85",
+    "seller": "Nina Costa",
+    "sellerEmail": "nina@email.com",
+    "category": "Roupas"
+  },
+  {
+    "id": 6,
+    "title": "Óculos de sol tartaruga",
+    "brand": "Ray-Ban",
+    "size": "Único",
+    "condition": "Excelente",
+    "price": 180,
+    "status": "Disponível",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=85",
+    "seller": "Carol Dias",
+    "sellerEmail": "carol@email.com",
+    "category": "Acessórios"
+  }
+]
