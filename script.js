@@ -530,7 +530,7 @@ function productForm(product = null) {
                         style="display:${editing ? 'block' : 'none'};width:100%;max-height:200px;object-fit:cover;margin-top:12px;border-radius:12px;">
                 </div>
 
-                <button type="submit" class="primary">
+                <button id="button-add" type="submit" class="primary">
                     ${editing ? 'Salvar alterações' : 'Cadastrar produto'}
                 </button>
 
