@@ -122,6 +122,7 @@ nav a:hover {
     font-size: 12px;
     text-transform: uppercase;
     transition: .2s;
+    
 }
 
 .primary:hover {
@@ -341,16 +342,23 @@ footer span {
     font-size: 11px;
 }
 
+
 /* MODAIS */
 
 .modal {
     position: fixed;
     inset: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
     background: #111111d9;
     display: grid;
     place-items: center;
     padding: 20px;
+    overflow-x: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
     z-index: 1000;
 }
 
@@ -417,7 +425,7 @@ footer span {
     font-size: 12px;
 }
 
-/* FORMULARIO DE ANUNCIO */
+/* FORMULARIO DE ANÚNCIO */
 
 .form-group {
     margin-bottom: 15px;
@@ -436,6 +444,8 @@ footer span {
 #imagePreview {
     border: 2px solid var(--sage);
 }
+
+
 
 /* RESPONSIVIDADE */
 
@@ -580,18 +590,43 @@ footer span {
         margin-top: 10px;
     }
 
+    /* MODAL MOBILE */
+
     .modal {
-        padding: 10px;
-        align-items: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        height: 100dvh;
+        min-height: 100%;
+        padding: max(12px, env(safe-area-inset-top))
+                 12px
+                 calc(25px + env(safe-area-inset-bottom));
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .box {
+        width: 100%;
+        max-width: 460px;
+        max-height: none;
+        height: auto;
+        flex-shrink: 0;
+        overflow: visible;
+        margin: 8px auto;
         padding: 25px 20px;
-        max-height: calc(100vh - 20px);
     }
 
     .box h2 {
         font-size: 35px;
+    }
+
+    .box .primary {
+        min-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
